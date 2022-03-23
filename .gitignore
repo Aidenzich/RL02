@@ -1,2 +1,10 @@
 
 *.pyc
+*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+tests/vocab.pkl
+.idea/

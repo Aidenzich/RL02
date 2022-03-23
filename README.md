@@ -13,12 +13,13 @@ Several neural networks are compared:
 ### Dependencies
 
 You can get all dependencies via the [Anaconda](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) environment file, [env.yml](https://github.com/golsun/deep-RL-time-series/blob/master/env.yml):
-
-    conda env create -f env.yml
-
+```
+    # conda env create -f env.yml
+    conda env create -f env2.yml
+```
 ### Play with it
 Just call the main function
-
+```
     python main.py
-
+```
 You can play with model parameters (specified in main.py), if you get good results or any trouble, please contact me at gxiang1228@gmail.com
